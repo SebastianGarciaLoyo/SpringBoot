@@ -3,11 +3,15 @@ package com.appdemoj3.app_j3.models;
 public class User {
   private String nombre;
   private String apellido;
+  private String email;
 public User() {
 }
-public User(String string, String string2) {
-    //TODO Auto-generated constructor stub
+
+public User(String nombre, String apellido) {
+    this.nombre = nombre;
+    this.apellido = apellido;
 }
+
 public String getNombre() {
     return nombre;
 }
@@ -19,6 +23,14 @@ public String getApellido() {
 }
 public void setApellido(String apellido) {
     this.apellido = apellido;
+}
+
+public String getEmail() {
+    return email;
+}
+
+public void setEmail(String email) {
+    this.email = email;
 }
 
   
