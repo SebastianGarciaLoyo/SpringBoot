@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FormularioApplication",
+            "request": "launch",
+            "mainClass": "com.actividad1.formulario.FormularioApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-AppJ3Application<app-j3>",
             "request": "launch",
             "cwd": "${workspaceFolder}",

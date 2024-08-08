@@ -1,6 +1,6 @@
 package com.appdemoj3.app_j3.controllers;
 
-import java.util.ArrayList;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -10,7 +10,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import com.appdemoj3.app_j3.models.User;
-import org.springframework.web.bind.annotation.RequestParam;
+
 
 
 
