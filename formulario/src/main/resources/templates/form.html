@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1 th:text="${titulo}"></h1>
+
+    <form action="api/infouser/forms" method="POST">
+        <div>
+            <label for="name">Nombre: </label>
+            <input type="text" name="name" id="name" required>
+        </div>
+
+        <div>
+            <label for="lastname">Apellido: </label>
+            <input type="text" name="lastname" id="lastname" required>
+        </div>
+
+        <div>
+            <label for="age">Edad: </label>
+            <input type="number" name="age" id="age" min="1" max="150">
+        </div>
+
+        <div>
+            <label for="nationality">Nacionalidad: </label>
+            <input type="text" name="nationality" id="nationality" required>
+        </div>
+        
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar</button>
+    </form>
+
+    <div>
+        <h3>Buscar Usuario</h3>
+
+        <form>
+            <label for="search"></label>
+            <input type="text" name="search" id="search" required>
+            <button type="submit">Buscar</button>
+        </form>
+    </div>
+</body>
+</html>
