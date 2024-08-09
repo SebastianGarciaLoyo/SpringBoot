@@ -13,6 +13,7 @@ public class UserController {
     @GetMapping("/form")
     public String form(Model model) {
         model.addAttribute("titulo", "Bienvenido");
+        model.addAttribute("subtitulo", "Ingrese los datos que se piden por favor");
         return "form";
     }
     
