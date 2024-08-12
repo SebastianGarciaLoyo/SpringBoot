@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InyeccionApplication",
+            "request": "launch",
+            "mainClass": "com.app_di.Inyeccion.InyeccionApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "AppDiApplication",
+            "request": "launch",
+            "mainClass": "com.ejemplo.app_di.AppDiApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "FormularioApplication",
             "request": "launch",
             "mainClass": "com.actividad1.formulario.FormularioApplication",
