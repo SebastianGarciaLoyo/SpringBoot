@@ -6,9 +6,8 @@ import com.appdemoj3.app_j3.models.User;
 import com.appdemoj3.app_j3.models.dto.UserDto;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
+
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

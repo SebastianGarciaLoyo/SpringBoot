@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "JpaAppApplication",
+            "request": "launch",
+            "mainClass": "com.jpaappj3.jpa_app.JpaAppApplication",
+            "projectName": "jpa-app"
+        },
+        {
+            "type": "java",
             "name": "InyeccionApplication",
             "request": "launch",
             "mainClass": "com.app_di.Inyeccion.InyeccionApplication",
