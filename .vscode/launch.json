@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DatabaseApplication",
+            "request": "launch",
+            "mainClass": "com.consultas.database.DatabaseApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "JpaAppApplication",
             "request": "launch",
             "mainClass": "com.jpaappj3.jpa_app.JpaAppApplication",
@@ -35,6 +42,16 @@
             "cwd": "${workspaceFolder}",
             "mainClass": "com.appdemoj3.app_j3.AppJ3Application",
             "projectName": "app-j3",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DatabaseApplication<database>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.consultas.database.DatabaseApplication",
+            "projectName": "database",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         }
