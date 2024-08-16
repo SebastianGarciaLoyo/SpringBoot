@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DatosApplication",
+            "request": "launch",
+            "mainClass": "com.bases.datos.DatosApplication",
+            "projectName": "datos"
+        },
+        {
+            "type": "java",
             "name": "DatabaseApplication",
             "request": "launch",
             "mainClass": "com.consultas.database.DatabaseApplication",
